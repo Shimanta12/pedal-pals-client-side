@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "name": "SISKIU D7",
+        "image": "https://i.ibb.co/7nT5M8L/MY22-SISKIU-D7-P-REV-01.png",
+        "description": "Siskiu D7 is  an all round XC trail full suspension bike that can handle everything from your fun local trails to all day Alpine epics. This upgraded series is built around a light weight, ALX aluminum suspension frame with more modern geometry – offering slacker head tube angle, longer reach, lower BB and shorter chain-stay to boost rider’s performance in climbing or descending, no matter the distance, technicality or gradient. The bikes’ are offered with updated kinematic system, with more optimized anti squat number for better pedaling performance and more progressive suspension ratio.",
+        "rating": 5,
+        "price": "$1799",
+        "frame": "ALX XC 120MM TRAVEL (27.5”) / 120MM TRAVEL (29”), TAPER H/T TA BOOST",
+        "wheelSize": "27.5/29 inch",
+        "color": "BLUE / PURPLE / BLACK"
+    },
+    {
+        "id": 2,
+        "name": "BROMO N7",
+        "image": "https://i.ibb.co/5sHmhQ4/MY21-MT-BROMO-N7-P-1.png",
+        "description": "Mt Bromo N was engineered from a clean slate to deliver the mountain biking experience we dream of; trail bike agility with enduroesque composure, where climbs transform into fun and your descents triple.a water bottle space! On the trail, the Siskiu T feels just as responsive and agile as the previous generation but the overall ceiling of what the bike is capable of has been lifted. The Siskiu T handles the demands of a modern trail bike, striking the balance between high-speed control and playful handling. Designed around our Wheel Fit Size System, 29” models feature 135mm of rear travel with 140mm forks whilst 27.5",
+        "rating": 4.7,
+        "price": "$1849",
+        "frame": "ALX ENDURO FRAME",
+        "wheelSize": "29 inch",
+        "color": "RED-BLACK"
+    },
+    {
+        "id": 3,
+        "name": "SISKIU N9",
+        "image": "https://i.ibb.co/2SfvpmW/MY21-SISKIU-N9-CHAMELEON-FIX-SPEC-2.png",
+        "description": "Polygon Siskiu N series is an aluminum full suspension enduro bike with a combination of parts and technology design to be ready to be ridden in the most demanding of conditionsa water bottle space! On the trail, the Siskiu T feels just as responsive and agile as the previous generation but the overall ceiling of what the bike is capable of has been lifted. The Siskiu T handles the demands of a modern trail bike, striking the balance between high-speed control and playful handling. Designed around our Wheel Fit Size System, 29” models feature 135mm of rear travel with 140mm forks whilst 27.5",
+        "rating": 5,
+        "price": "$2150",
+        "frame": "ALX AM / ENDURO 170MM TRAVEL (27.5”) / 160MM TRAVEL (29”), TAPER H/T TA BOOST",
+        "wheelSize": "27.5/29 inch",
+        "color": "RADIANT GALAXY - BLACK"
+    },
+    {
+        "id": 4,
+        "name": "SISKIU T8",
+        "image": "https://i.ibb.co/1dHh5cH/MY20-SISKIU-T8-TA-1.png",
+        "description": "Riders’ dreams aren’t limited by the depth of their pockets. The latest evolution of the Siskiu T series opens up any trail to any rider through  progressive geometry into an attainable package with a water bottle space! On the trail, the Siskiu T feels just as responsive and agile as the previous generation but the overall ceiling of what the bike is capable of has been lifted. The Siskiu T handles the demands of a modern trail bike, striking the balance between high-speed control and playful handling. Designed around our Wheel Fit Size System, 29” models feature 135mm of rear travel with 140mm forks whilst 27.5”",
+        "rating": 4.4,
+        "price": "$2280",
+        "frame": "ALX TRAIL FRAME 140MM TRAVEL (27.5”) / 135MM TRAVEL (29”), TAPER H/T",
+        "wheelSize": "27.5 / 29 inch",
+        "color": "PURPLE BLACK"
+    },
+    {
+        "id": 5,
+        "name": "TRID ZZ",
+        "image": "https://i.ibb.co/74kWCtd/MY20-TRID-ZZ-TA.png",
+        "description": "After several years of testing and development in collaboration with Sam Reynolds and Kurt Sorge, we are excited to introduce our much anticipated Slope Style bike – the Trid ZZ. The custom designed ALX alloy frame features an ultra stiff, 69-degree tapered head tube with a 426mm reach and a low 331mm BB height. A threaded BB, and ultra-low standover means this bike is ready for trickery. The bike comes spec’d with a 100mm RockShox Pike DJ fork and Rockshox Monarch rear shock, SRAM GX DH 7 speed drive train and SRAM hydraulic disc brakes. The shifters come standard on the handlebar, however can be easily moved to the downtube if needed.",
+        "rating": 5,
+        "price": "$2049",
+        "frame": "AL6 SLOPE STYLE, 100MM TRAVEL, POSTMOUNT 160MM",
+        "wheelSize": "26 inch",
+        "color": "BLACK BRONZE"
+    },
+    {
+        "id": 6,
+        "name": "STRATTOS S8 DISC",
+        "image": "https://i.ibb.co/S7z98Ds/MY22-PJ-STRATTOS-S8-D-P.png",
+        "description": "Cheers to the riders who just cannot get enough! Built with UCI carbon frame and fork, plus 16% stiffer downtubes; our all-rounder whiz – Strattos, is designed to accompany its rider on every ride. Get ready to hike new mountains and break your personal bests,but still doing a workout and enjoying the city scenery. Equipped with upgraded geometry and 27.5 x 2.4 sleek tire for better, because this bike will make you perform your best for longer.gradient. The bikes’ are offered with updated kinematic system, with more optimized anti squat number for better pedaling performance and more progressive suspension ratio.  Features with 120mm suspension with a one piece.",
+        "rating": 4.5,
+        "price": "$1799",
+        "frame": "ACX ALL-ROUND UCI APPROVED, HUB SPACING: 12x142MM, FOR THRU AXLE TP1.5 L:163MM",
+        "wheelSize": "700C",
+        "color": "BLACK"
+    },
+    {
+        "id": 7,
+        "name": "PATH E5",
+        "image": "https://i.ibb.co/gzfsWr1/MY20-PATH-E5000-GENT-NEW-COLOR2.png",
+        "description": "After successfully releasing the 1st Polygon’s pedelec (pedal electric bicycle) city bike last year; Polygon is releasing Path E5 – an upgraded pedelec city bike supported with an electric pedal-assist system component starting to operate through rider’s pedaling power. With the help of the attached system, riders don’t need to pedal as hard as riding a conventional bike, but still doing a workout and enjoying the city scenery. Equipped with upgraded geometry and 27.5 x 2.4 sleek tire for better balance and stable riding for any urban rider or citizen starting to ride a bike for their daily commuting life. The Path E5’s requires less effort to brings you further and faster.",
+        "rating": 4.8,
+        "price": "$1750",
+        "frame": "AL6 PAVEMENT, 10X135MM O.L.D., IS MOUNT, INTERNAL SHIFTING ROUTE",
+        "wheelSize": "27.5 inch",
+        "color": "BLACK"
+    },
+    {
+        "id": 8,
+        "name": "SISKIU T7",
+        "image": "https://i.ibb.co/9rcRM4k/MY20-SISKIU-T7-TA2-2.png",
+        "description": "Riders’ dreams aren’t limited by the depth of their pockets. The latest evolution of the Siskiu T series opens up any trail to any rider through encompassing progressive geometry into an attainable package with a water bottle space! On the trail, the Siskiu T feels just as responsive and agile as the previous generation but the overall ceiling of what the bike is capable of has been lifted. The Siskiu T handles the demands of a modern trail bike, striking the balance between high-speed control and playful handling. Designed around our Wheel Fit Size System, 29” models feature 135mm of rear travel with 140mm forks whilst 27.5” bikes have 140mm.",
+        "rating": 4.7,
+        "price": "$2560",
+        "frame": "ALX TRAIL FRAME 140MM TRAVEL (27.5”) / 135MM TRAVEL (29”), TAPER H/T",
+        "wheelSize": "27.5/29 inch",
+        "color": "RED-BLACK"
+    },
+    {
+        "id": 9,
+        "name": "SISKIU D5",
+        "image": "https://i.ibb.co/TqkXwWR/MY22-SISKIU-D5-RED-P.png",
+        "description": "Siskiu D5 is an all round XC trail  full suspension bike that can handle everything from your fun local trails to all day Alpine epics. This upgraded series is built around a light weight, ALX aluminum suspension frame with more modern geometry – offering slacker head tube angle, longer reach, lower BB and shorter chain-stay to boost rider’s performance in climbing or descending, no matter the distance, technicality or gradient. The bikes’ are offered with updated kinematic system, with more optimized anti squat number for better pedaling performance and more progressive suspension ratio.  Features with 120mm suspension with a one piece.",
+        "rating": 5,
+        "price": "$1249",
+        "frame": "ALX XC TRAIL FRAME",
+        "wheelSize": "27.5 inch",
+        "color": "RED-BLACK"
+    },
+    {
+        "id": 10,
+        "name": "SYNCLINE C5",
+        "image": "https://i.ibb.co/yqycgZY/MY21-SYNCLINE-C5-P.png",
+        "description": "Syncline C series is designed as a top performing XC trail machine with modern geometry. Featuring an ultra light and stiff carbon frame designed around 27.5” and 29″ wheels, this bike will keep you rolling on cross country to technical tracks smoothly with style. The Syncline C is created for trail seeker looking for fun offroad riding to cross-country enthusiast striving to seize the podium. Syncline C is prepared to cross every boundary!gradient. The bikes’ are offered with updated kinematic system, with more optimized anti squat number for better pedaling performance and more progressive suspension ratio.  Features with 120mm suspension with a one piece.",
+        "rating": 4.7,
+        "price": "$1799",
+        "frame": "ACX XC PERFORMANCE",
+        "wheelSize": "27.5 / 29 inch",
+        "color": "GREEN"
+    }
+]

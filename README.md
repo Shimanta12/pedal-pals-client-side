@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+## PedalPals
+## Live Website Link [PedalPals](https://github.com/facebook/create-react-app)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+PedalPals is a online shopping site for purchasing high quality and cool looking bikes. Client's needs is our top priority. We try our best to satisfy our client.
 
-## Available Scripts
+## Functionality used-
+1. This site is a single page application and has a total of six routes(Home, Explore, Dashboard, Login, Register).
+Menubar and footer are shared in all routes.
+2. Home route has 4 section in total(Banner, Bicycle products, Client reviews, Contact) excluding Menubar and footer.
+3. Each product has a 'purchase' button which lead to a protected route in which the extra product details are shown and user gets to fill up a form and purchase the clicked product.
+4. If you are not logged in then clicking 'purchase' button will redirect you to Login page. And after login you will be redirected to initial page. Dashboard route is protected too.
+5. Login has a email-password based authentication and sign in with google authentication.
+6. Once logged in a user can see Dashboard route, and will appear a logOut button on menubar which will log out the user.
+7. Dashboard for a regular user have 2 nested routes(My orders, Add review) and a logout button. In my orders route a user can see his/her purchased products and can also cancel purchase. And user can also add review which will be shown in the home page.
+8. However an admin will see different nested and protected route on dashboard which will not be seen by regular user. Those routes are Manage Orders, Add Product, Manage Products, Make admin and a logout button. In Manage order route an admin will see all products purchased by available users. And an admin can delete or approve a order. In Add product route an admin can add a product which will appear on explore page. An admin can make a regular user admin in Make Admin route. In Manage products route an admin can see all products stored in the database and can delete a product from database.
+9. This site is responsive for mobile and tablet devices.
+10. All the data used in this site are from mongoDb database.
 
-In the project directory, you can run:
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Technology used-
+React.
+Meterial UI.
+React Router.
+Firebase.
+Node.
+Express.
+MongoDB.
