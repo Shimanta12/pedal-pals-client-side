@@ -19,10 +19,10 @@ Menubar and footer are shared in all routes.
 
 
 ## Technology used-
-React.
-Meterial UI.
-React Router.
-Firebase.
-Node.
-Express.
-MongoDB.
+1. React.
+2. Meterial UI.
+3. React Router.
+4. Firebase.
+5. Node.
+6. Express.
+7. MongoDB.
