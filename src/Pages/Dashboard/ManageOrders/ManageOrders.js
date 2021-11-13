@@ -51,7 +51,7 @@ const ManageOrders = () => {
             .then(res => res.json())
             .then(result => {
                 if (result.modifiedCount > 0) {
-                    alert('Purchase Approved');
+                    alert('Purchase shipped!');
                     setApproved(!approved)
                 }
             })
@@ -85,7 +85,7 @@ const ManageOrders = () => {
                                 <TableCell >{product.purchasedProduct.price}</TableCell>
                                 <TableCell ><img style={{ width: '80px' }} src={product.purchasedProduct.image} alt="" /></TableCell>
                                 <TableCell >{product.status}</TableCell>
-                                <TableCell><Button onClick={() => handleDeleteOrder(product._id)} variant="contained" endIcon={<DeleteIcon />} size="small">Delete</Button><Button sx={{ ml: { xs: 0, md: 2 }, mt: { xs: 2, md: 0 } }} onClick={() => handleApproveStatus(product._id)} variant="contained" endIcon={<CheckIcon />} size="small">Approve</Button></TableCell>
+                                <TableCell><Button onClick={() => handleDeleteOrder(product._id)} variant="contained" endIcon={<DeleteIcon />} size="small">Delete</Button><Button sx={{ ml: { xs: 0, md: 2 }, mt: { xs: 2, md: 0 } }} onClick={() => handleApproveStatus(product._id)} variant="contained" endIcon={<CheckIcon />} size="small">Ship</Button></TableCell>
                             </TableRow>
                         ))}
                     </TableBody>

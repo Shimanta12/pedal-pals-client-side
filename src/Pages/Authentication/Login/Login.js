@@ -29,7 +29,7 @@ const Login = () => {
     }
 
     return (
-        <Container sx={{ mt: 15, mb: 5 }}>
+        <Container sx={{ mt: { xs: 17, sm: 10 }, mb: 5 }}>
             <Grid container spacing={3}>
                 <Grid item xs={12} sm={7} sx={{ boxShadow: 3, borderRadius: 4, p: 5 }}>
                     <Typography variant="h6" sx={{ fontWeight: 'bold' }} color="primary">

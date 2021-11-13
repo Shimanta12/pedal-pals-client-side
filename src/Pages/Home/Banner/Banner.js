@@ -16,12 +16,12 @@ const cursive = {
 
 const Banner = () => {
     return (
-        <Box style={banner} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', mt: 10 }}>
+        <Box style={banner} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', mt: 8 }}>
             <Container >
-                <Typography style={cursive} className="cursive-text" variant="h3" sx={{ color: ' white ' }}>
+                <Typography style={cursive} className="cursive-text" variant="h3" sx={{ color: ' white ' }} gutterBottom>
                     Life Is Like Riding A Bicycle.
                 </Typography>
-                <Typography style={cursive} className="cursive-text" variant="h3" sx={{ color: ' white ' }}>
+                <Typography style={cursive} className="cursive-text" variant="h4" sx={{ color: ' white ' }}>
                     To Keep Your Balance You Must Keep Paddling.
                 </Typography>
                 <Link to="explore" style={{ textDecoration: 'none' }}>

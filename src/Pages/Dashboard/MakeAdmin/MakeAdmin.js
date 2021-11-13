@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 const MakeAdmin = () => {
     const [email, setEmail] = useState('')
     const [success, setSuccess] = useState(false)
+    const [failed, setFailed] = useState(false)
 
     const handleAdminSubmit = e => {
         const user = { email }
@@ -20,6 +21,9 @@ const MakeAdmin = () => {
                 if (data.modifiedCount > 0) {
                     setSuccess(true)
                 }
+                else {
+                    setFailed(true)
+                }
             })
     }
     return (
@@ -35,6 +39,7 @@ const MakeAdmin = () => {
             </form>
             <br />
             {success && <Alert severity="success">{email} is now an admin !</Alert>}
+            {failed && <Alert severity="error">Email not found!</Alert>}
         </div>
     );
 };

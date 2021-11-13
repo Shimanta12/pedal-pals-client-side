@@ -21,16 +21,16 @@ const ManageProducts = () => {
     }, [])
 
     const handleDeleteProduct = id => {
-        const proceed = window.confirm('Are you sure you want to cancel?');
+        const proceed = window.confirm('Are you sure you want to delete?');
         if (proceed) {
-            const url = `https://salty-taiga-12692.herokuapp.com/${id}`;
+            const url = `https://salty-taiga-12692.herokuapp.com/products/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })
                 .then(res => res.json())
                 .then(result => {
                     if (result.deletedCount === 1) {
-                        alert('Purchase Canceled SuccessFully')
+                        alert('Product deleted SuccessFully')
                         const remaining = products.filter(product => product._id !== id);
                         setProducts(remaining);
                     }

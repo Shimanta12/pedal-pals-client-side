@@ -39,7 +39,7 @@ const ProductDetails = () => {
             })
     };
     return (
-        <Container sx={{ my: 5 }}>
+        <Container sx={{ mt: { xs: 17, sm: 10 }, mb: 5 }}>
             <Grid container spacing={3}>
                 <Grid item xs={12} sm={7}>
                     <img style={{ width: '100%' }} src={product.image} alt="" />

@@ -9,8 +9,8 @@ import Footer from './Pages/Shared/Footer/Footer';
 import PrivateRoute from './PrivateRoute/PrivateRoute';
 import ProductDetails from './Pages/Home/ProductDetails/ProductDetails';
 import Dashboard from './Pages/Dashboard/Dashboard/Dashboard';
-import Explore from './Pages/Explore/Explore';
 import NotFound from './Pages/NotFound/NotFound';
+import Bicycles from './Pages/Bicycles/Bicycles';
 
 function App() {
   return (
@@ -38,9 +38,9 @@ function App() {
               <Register />
               <Footer />
             </Route>
-            <Route path="/explore">
+            <Route path="/bycycles">
               <Menubar />
-              <Explore />
+              <Bicycles />
               <Footer />
             </Route>
             <PrivateRoute path="/product/:id">

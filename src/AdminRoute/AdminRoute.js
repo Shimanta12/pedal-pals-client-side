@@ -1,13 +1,16 @@
-import { CircularProgress } from '@mui/material';
 import React from 'react';
 import { Redirect, Route } from 'react-router';
 import useAuth from './../hooks/useAuth'
+import PacmanLoader from "react-spinners/PacmanLoader";
+import { Box } from '@mui/system';
 
 const AdminRoute = ({ children, ...rest }) => {
     const { user, admin, isLoading } = useAuth()
 
     if (isLoading) {
-        return <CircularProgress />
+        return <Box sx={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <PacmanLoader color={'dodgerblue'} size={30} />
+        </Box>
     }
 
     return (

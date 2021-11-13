@@ -11,6 +11,7 @@ import { Avatar, Button } from '@mui/material';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 import LogoutIcon from '@mui/icons-material/Logout';
+import DirectionsBikeIcon from '@mui/icons-material/DirectionsBike';
 
 
 const Menubar = () => {
@@ -96,7 +97,7 @@ const Menubar = () => {
 
     return (
         <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="fixed" sx={{ backgroundColor: 'white', p: 1 }} elevation={0}>
+            <AppBar position="fixed" sx={{ backgroundColor: 'white' }} elevation={0}>
                 <Toolbar sx={{ display: { xs: 'block', sm: 'flex' } }}>
                     <Typography
                         as={Link}
@@ -107,15 +108,17 @@ const Menubar = () => {
                         component="div"
                         sx={{}}
                     >
-                        PedalPals
+                        <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                            <DirectionsBikeIcon sx={{ fontSize: '40px' }} /> <span>PedalPals</span>
+                        </Box>
                     </Typography>
                     <Box sx={{ flexGrow: 1 }} />
                     <Box>
                         <Link to="/home" style={{ textDecoration: 'none' }}>
                             <Button sx={{ fontWeight: 'bold', color: 'black' }}>Home</Button>
                         </Link>
-                        <Link to="/explore" style={{ textDecoration: 'none' }}>
-                            <Button sx={{ fontWeight: 'bold', color: 'black' }}>Explore</Button>
+                        <Link to="/bycycles" style={{ textDecoration: 'none' }}>
+                            <Button sx={{ fontWeight: 'bold', color: 'black' }}>Bicycles</Button>
                         </Link>
                         {user.email && <Link to="/dashboard" style={{ textDecoration: 'none' }}>
                             <Button sx={{ fontWeight: 'bold', color: 'black' }}>Dashboard</Button>
