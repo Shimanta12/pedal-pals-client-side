@@ -24,7 +24,7 @@ const Banner = () => {
                 <Typography style={cursive} className="cursive-text" variant="h4" sx={{ color: ' white ' }}>
                     To Keep Your Balance You Must Keep Paddling.
                 </Typography>
-                <Link to="explore" style={{ textDecoration: 'none' }}>
+                <Link to="/bycycles" style={{ textDecoration: 'none' }}>
                     <Button sx={{ mt: 3, px: 5 }} variant="contained" endIcon={<DoubleArrowIcon />}>Explore</Button>
                 </Link>
             </Container>
