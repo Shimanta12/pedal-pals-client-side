@@ -5,9 +5,9 @@ import PacmanLoader from "react-spinners/PacmanLoader";
 import { Box } from '@mui/system';
 
 const AdminRoute = ({ children, ...rest }) => {
-    const { user, admin, isLoading } = useAuth()
+    const { user, admin } = useAuth()
 
-    if (isLoading) {
+    if (!admin) {
         return <Box sx={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <PacmanLoader color={'dodgerblue'} size={30} />
         </Box>
